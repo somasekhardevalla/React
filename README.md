@@ -7,6 +7,8 @@
 #for routing purpose again install react dom latest version.
 #go to the project_name folder open the terminal and type "npm i -D react-router-dom@latest".
 #after that in src folder create a sub folder name "components".
-#store the files in that folder and run the command "npm start".
+#dump all the js files into the components folder.
+#now create an another sub folder in the components folder "images",dump all the pictures into that folder,then save all the changes what ever you did.
+# run the command "npm start".
 #localHost will open on your default browser.
 #finally you are able to see the output of that file.
