@@ -1,4 +1,5 @@
 # This is my portfolio website using react js.
+#It also includes the firebase authentication option i.e. signin to google with pop up method.
 #To run this files properly one should already install react ^18.1.0 or above.
 #also install the latest version of the react-dom.
 #to install react first you should install nodejs in your system.
