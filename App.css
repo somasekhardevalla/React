@@ -1,0 +1,296 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar component */
+.bg
+{
+  background-image: linear-gradient(70deg,rgb(60, 114, 195),rgb(15, 49, 104),rgb(53, 5, 107));
+ 
+  /* background-color: rgba(188, 8, 140, 0.997); */
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+.para
+{
+  color: white;
+}
+ol .center{
+   margin-top: 0px;
+}
+.center
+{
+  margin: 0px !important;
+  padding-top: 12px;
+  padding-left: 27%;
+}
+ol li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: larger;
+}
+ol li a:hover
+{
+  color:darkgray;
+}
+ol li{
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+}
+li{
+  float: left;
+   padding-left: 80px;
+ } /* Navbar component css completed*/
+ .body
+ {
+  /* background-color: #780381; */
+  /* background-image: linear-gradient(360deg,rgb(28, 22, 22),rgb(9, 4, 101)); */
+  background-image: url('./components/images/img3.jpg');
+  height: 91vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+ .card
+ {
+  height: 70vh;
+  width: 80%;
+  margin-left: 49%;
+  /* background-image: linear-gradient(125deg,rgb(113, 134, 143),rgb(221, 221, 239),rgb(179, 179, 193)); */
+  background-color: rgba(181, 174, 174, 0.3);
+  border-radius: 15px;
+  border-style: hidden;
+}
+.card:hover
+{
+   width: 82%;
+   margin-left: 47.5%;
+   height: 71vh;
+   border-radius: 17px;
+   /* background-image: linear-gradient(250deg,rgba(30, 32, 33, 0.73),rgba(17, 21, 23, 0.652)rgb(27, 27, 36)) !important; */
+   background-color: 	#7f7b7ba3;
+}
+.image
+{
+  background-image: url('./components/images/card4.jpg');
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn
+{
+  margin-top: 110px;
+  text-align: center;
+  width: 75%;
+  margin-left: 13%;
+  background-image: linear-gradient(90deg,rgb(42, 45, 48),rgba(30, 24, 24, 0.856));
+  height: 60px;
+  border-radius: 55px;
+  
+}
+.btn:hover{
+  background-image: linear-gradient(90deg,rgba(50, 50, 53, 0.525),rgb(41, 34, 34));
+  border-color: rgb(8, 8, 74);
+  border-width: 4px;
+  border-style: solid;
+  color: grey;
+}
+.btn a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: larger;
+}
+.btn a:hover{
+  color:gray
+}
+.row .col-md-4
+{
+   margin-top: 5.5%;
+   margin-left: 35px;
+
+ }
+ .row.col-md-4:hover{
+  margin-top: 5.2%;
+  /* background-image: linear-gradient(250deg,rgba(30, 32, 33, 0.73),rgba(17, 21, 23, 0.652)rgb(27, 27, 36)) !important; */
+ }
+ .right .btn
+ {
+  margin-top: 90px;
+  padding: 5px;
+ }
+ h5{
+  color: rgba(149, 142, 142, 0.629);
+  margin-top: 30px;
+  margin-left: 75%;
+ }
+ .page,h3
+ {
+  margin-top: 1.5%;
+  color: rgb(9, 6, 6);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+ }
+ .pageimage
+ {
+   width: 50%;
+   height: 67.5vh;
+   background-image: url('./components/images/page_under.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 20px;
+   margin-left: 25%;
+ }
+ .bt{
+  margin-top: 0.8vh;
+  margin-left: 43%;
+  width: 145px;
+  height: 43.5px;
+  background-image: linear-gradient(59deg,rgb(7, 23, 148),rgb(3, 43, 106));
+  border-color: rgb(247, 240, 240);
+  border-radius: 30px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-style: italic;
+  /* border-color: gray;
+  border-bottom-color: gray !important; */
+ }
+ .bt:hover{
+  margin-left: 42.8%;
+  margin-top: 0.78vh;
+   width: 150px;
+   height: 45px;
+ }
+ .res_bg
+ {
+  background-image: url('./components/images/img3.jpg');
+  height: 91vh;
+  margin-top: 0px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .resume,a{
+  text-decoration: none;
+  color: white;
+ }
+ .res{
+  margin-left: 22% !important;
+}
+.imge
+{
+  width: 100%;
+  height: 50%;
+  background-image: url('./components/images/resume.jpg');
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .cont
+ {
+  margin-top: 24%;
+ }
+ .r_bt
+ {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  background-image: linear-gradient(90deg,rgb(42, 45, 48),rgba(30, 24, 24, 0.856));
+  color: rgb(248, 244, 252);
+  width: 75%;
+  height: 60px;
+  border-radius: 30px;
+  border-width: 0px;
+ }
+ .r_bt:hover{
+  background-image: linear-gradient(90deg,rgba(50, 50, 53, 0.525),rgb(41, 34, 34));
+  border-color: rgb(8, 8, 74);
+  border-width: 4px;
+  border-style: solid;
+ }
+ .backend
+ {
+  margin-top: 10px;
+ }
+ .demo
+ {
+text-align: center;
+background-color: rgb(64, 135, 242);
+width: 20%;
+margin-left: 35%;
+margin-top: 5%;
+height: 50vh;
+border-radius: 10px;
+ }
+ .demo .gsignin
+ {
+  margin-top: 30px;
+  color: white;
+ }
+ .demo button{
+  width: 85%;
+  height: 40px;
+  background-color: rgb(242, 124, 104);
+  color: whitesmoke;
+  font-weight: bolder;
+  border-radius: 8px;
+ }
+ .post
+ {
+  margin-top: 50%;
+ }
+ .data
+ {
+  margin-top: 30px;
+ }
+
